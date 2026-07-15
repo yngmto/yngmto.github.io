@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex" />
+    <title>連携が完了しました | ムシン</title>
+    <style>
+      :root { --bg: #0f172a; --fg: #f8fafc; --muted: #94a3b8; --accent: #22c55e; }
+      * { box-sizing: border-box; }
+      html, body { height: 100%; margin: 0; }
+      body {
+        background: var(--bg);
+        color: var(--fg);
+        font-family: -apple-system, BlinkMacSystemFont, 'Hiragino Sans', 'Noto Sans JP',
+          'Segoe UI', Roboto, sans-serif;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 24px;
+      }
+      .card { max-width: 420px; }
+      .logo { width: 96px; height: 96px; margin: 0 auto 24px; display: block; }
+      h1 { font-size: 1.5rem; font-weight: 700; margin: 0 0 12px; }
+      p { color: var(--muted); line-height: 1.8; font-size: 1rem; margin: 0 0 8px; }
+      .hint {
+        margin-top: 28px;
+        font-size: 0.85rem;
+        color: var(--muted);
+        border-top: 1px solid #1e293b;
+        padding-top: 20px;
+      }
+      strong { color: var(--fg); }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <svg class="logo" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <path d="M 662 252 A 300 300 0 1 1 409 230" fill="none" stroke="#22c55e"
+              stroke-width="92" stroke-linecap="round" />
+        <circle cx="538" cy="213" r="40" fill="#f59e0b" />
+      </svg>
+      <h1>メール連携が完了しました</h1>
+      <p>アカウントとメールアドレスが結びつきました。</p>
+      <p>これで機種変更や再インストールをしても、記録を引き継げます。</p>
+      <p class="hint">
+        この画面は閉じて、<strong>ムシン</strong>のアプリに戻ってください。<br />
+        すでにログイン済みの状態になっています。
+      </p>
+    </div>
+  </body>
+</html>
